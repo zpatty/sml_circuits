@@ -1,0 +1,757 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 12618 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 7200 2200
+Wire Wire Line
+	4200 4400 4200 4500
+Wire Wire Line
+	4200 4600 4200 4500
+Wire Wire Line
+	4200 4700 4200 4600
+Connection ~ 4200 4400
+Connection ~ 4200 4500
+Connection ~ 4200 4600
+Text Label 4200 4400 0    10   ~ 0
+GND
+Wire Wire Line
+	7400 1900 7400 1800
+Text Label 7400 1800 0    70   ~ 0
+SMA1_PWR
+Wire Wire Line
+	6800 2200 6600 2200
+Text Label 6600 2200 0    70   ~ 0
+SMA1_SIG
+Wire Wire Line
+	1100 2800 1800 2800
+Text Label 1100 2800 0    70   ~ 0
+SMA1_SIG
+Connection ~ 7200 3500
+Wire Wire Line
+	7400 3200 7400 3100
+Text Label 7400 3100 0    70   ~ 0
+SMA2_PWR
+Wire Wire Line
+	6800 3500 6600 3500
+Text Label 6600 3500 0    70   ~ 0
+SMA2_SIG
+Wire Wire Line
+	1100 2900 1800 2900
+Text Label 1100 2900 0    70   ~ 0
+SMA2_SIG
+Connection ~ 7200 4700
+Connection ~ 7200 5900
+Connection ~ 9900 2200
+Connection ~ 9900 3500
+Wire Wire Line
+	7400 4400 7400 4300
+Text Label 7400 4300 0    70   ~ 0
+SMA3_PWR
+Wire Wire Line
+	11300 5700 11400 5700
+Text Label 11300 5700 0    70   ~ 0
+SMA3_PWR
+Wire Wire Line
+	6800 4700 6600 4700
+Text Label 6600 4700 0    70   ~ 0
+SMA3_SIG
+Wire Wire Line
+	1800 3000 1100 3000
+Text Label 1100 3000 0    70   ~ 0
+SMA3_SIG
+Wire Wire Line
+	6800 5900 6600 5900
+Text Label 6600 5900 0    70   ~ 0
+SMA4_SIG
+Wire Wire Line
+	1800 3900 1100 3900
+Text Label 1100 3900 0    70   ~ 0
+SMA4_SIG
+Wire Wire Line
+	7400 5600 7400 5500
+Text Label 7400 5500 0    70   ~ 0
+SMA4_PWR
+Wire Wire Line
+	10100 1900 10100 1800
+Text Label 10100 1800 0    70   ~ 0
+SMA5_PWR
+Wire Wire Line
+	9500 2200 9300 2200
+Text Label 9300 2200 0    70   ~ 0
+SMA5_SIG
+Wire Wire Line
+	1800 4000 1100 4000
+Text Label 1100 4000 0    70   ~ 0
+SMA5_SIG
+Wire Wire Line
+	9500 3500 9300 3500
+Text Label 9500 3500 0    10   ~ 0
+SMA6_SIG
+Wire Wire Line
+	1100 4200 1800 4200
+Text Label 1100 4200 0    70   ~ 0
+SMA6_SIG
+Wire Wire Line
+	10100 3200 10100 3100
+Text Label 10100 3100 0    70   ~ 0
+SMA6_PWR
+Wire Wire Line
+	4400 5900 4200 5900
+Wire Wire Line
+	4200 5900 4200 6300
+Wire Wire Line
+	4200 6300 4400 6300
+Wire Wire Line
+	4400 5700 4400 5800
+Wire Wire Line
+	4400 5800 4400 5900
+Wire Wire Line
+	3800 5800 4400 5800
+Connection ~ 4400 5900
+Connection ~ 4400 5800
+Text Label 4400 5900 0    10   ~ 0
+VBAT_1
+Wire Wire Line
+	11300 5600 11400 5600
+Text Label 11300 5600 0    10   ~ 0
+VBAT_1
+Wire Wire Line
+	5100 5900 5100 5100
+Wire Wire Line
+	5100 5100 5100 2100
+Wire Wire Line
+	5100 2100 4700 2100
+Wire Wire Line
+	4700 2100 4200 2100
+Wire Wire Line
+	4200 2100 4200 2300
+Wire Wire Line
+	5100 5100 1800 5100
+Wire Wire Line
+	1800 5100 1800 6200
+Wire Wire Line
+	1800 6200 1300 6200
+Connection ~ 4700 2100
+Connection ~ 5100 5100
+Wire Wire Line
+	1800 2500 1500 2400
+Wire Wire Line
+	1800 2500 1800 2600
+Wire Wire Line
+	1800 2400 1500 2300
+Wire Wire Line
+	1300 6300 1600 6300
+Wire Wire Line
+	1600 6300 1600 2300
+Wire Wire Line
+	1600 2300 1800 2300
+Connection ~ 9900 4700
+Wire Wire Line
+	9500 4700 9300 4700
+Text Label 9500 4700 0    10   ~ 0
+SMA7_SIG
+Wire Wire Line
+	4300 3200 4200 3200
+Text Label 4200 3200 0    70   ~ 0
+SMA7_SIG
+Wire Wire Line
+	10100 4400 10100 4300
+Text Label 10100 4300 0    70   ~ 0
+SMA7_PWR
+Connection ~ 9900 5800
+Wire Wire Line
+	9500 5800 9300 5800
+Text Label 9500 5800 0    10   ~ 0
+SMA8_SIG
+Wire Wire Line
+	4200 3800 4900 3800
+Text Label 4400 3800 0    70   ~ 0
+SMA8_SIG
+Wire Wire Line
+	10100 5500 10100 5400
+Text Label 10100 5400 0    70   ~ 0
+SMA8_PWR
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RS1
+U 1 1 8F7980A7
+P 7000 2200
+F 0 "RS1" H 7000 2260 70  0000 C BNN
+F 1 " " H 7000 2140 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 7000 2200 50  0001 C CNN
+F 3 "" H 7000 2200 50  0001 C CNN
+	1    7000 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RP1
+U 1 1 1610ECB8
+P 7200 2400
+F 0 "RP1" H 7200 2460 70  0000 C BNN
+F 1 " " H 7200 2340 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 7200 2400 50  0001 C CNN
+F 3 "" H 7200 2400 50  0001 C CNN
+	1    7200 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:MOSFET-NREFLOW Q1
+U 1 1 7A211019
+P 7300 2100
+F 0 "Q1" H 7500 2125 42  0000 L BNN
+F 1 "MOSFET-NREFLOW" H 7500 2050 42  0000 L BNN
+F 2 "swimming star nrf:SOT23" H 7300 2100 50  0001 C CNN
+F 3 "" H 7300 2100 50  0001 C CNN
+	1    7300 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 7200 2700
+F 0 "#GND01" H 7200 2700 50  0001 C CNN
+F 1 "GND" H 7100 2600 59  0000 L BNN
+F 2 "" H 7200 2700 50  0001 C CNN
+F 3 "" H 7200 2700 50  0001 C CNN
+	1    7200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 7400 2400
+F 0 "#GND02" H 7400 2400 50  0001 C CNN
+F 1 "GND" H 7300 2300 59  0000 L BNN
+F 2 "" H 7400 2400 50  0001 C CNN
+F 3 "" H 7400 2400 50  0001 C CNN
+	1    7400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RS2
+U 1 1 FEF5D711
+P 7000 3500
+F 0 "RS2" H 7000 3560 70  0000 C BNN
+F 1 " " H 7000 3440 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 7000 3500 50  0001 C CNN
+F 3 "" H 7000 3500 50  0001 C CNN
+	1    7000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RP2
+U 1 1 18EBDE11
+P 7200 3700
+F 0 "RP2" H 7200 3760 70  0000 C BNN
+F 1 " " H 7200 3640 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 7200 3700 50  0001 C CNN
+F 3 "" H 7200 3700 50  0001 C CNN
+	1    7200 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:MOSFET-NREFLOW Q2
+U 1 1 DA191B3C
+P 7300 3400
+F 0 "Q2" H 7500 3425 42  0000 L BNN
+F 1 "MOSFET-NREFLOW" H 7500 3350 42  0000 L BNN
+F 2 "swimming star nrf:SOT23" H 7300 3400 50  0001 C CNN
+F 3 "" H 7300 3400 50  0001 C CNN
+	1    7300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 7200 4000
+F 0 "#GND03" H 7200 4000 50  0001 C CNN
+F 1 "GND" H 7100 3900 59  0000 L BNN
+F 2 "" H 7200 4000 50  0001 C CNN
+F 3 "" H 7200 4000 50  0001 C CNN
+	1    7200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND04
+U 1 1 D896219B
+P 7400 3700
+F 0 "#GND04" H 7400 3700 50  0001 C CNN
+F 1 "GND" H 7300 3600 59  0000 L BNN
+F 2 "" H 7400 3700 50  0001 C CNN
+F 3 "" H 7400 3700 50  0001 C CNN
+	1    7400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RS3
+U 1 1 8D0C9A02
+P 7000 4700
+F 0 "RS3" H 7000 4760 70  0000 C BNN
+F 1 " " H 7000 4640 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 7000 4700 50  0001 C CNN
+F 3 "" H 7000 4700 50  0001 C CNN
+	1    7000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RP3
+U 1 1 42398D1F
+P 7200 4900
+F 0 "RP3" H 7200 4960 70  0000 C BNN
+F 1 " " H 7200 4840 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 7200 4900 50  0001 C CNN
+F 3 "" H 7200 4900 50  0001 C CNN
+	1    7200 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:MOSFET-NREFLOW Q3
+U 1 1 A3E817C2
+P 7300 4600
+F 0 "Q3" H 7500 4625 42  0000 L BNN
+F 1 "MOSFET-NREFLOW" H 7500 4550 42  0000 L BNN
+F 2 "swimming star nrf:SOT23" H 7300 4600 50  0001 C CNN
+F 3 "" H 7300 4600 50  0001 C CNN
+	1    7300 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 7200 5200
+F 0 "#GND05" H 7200 5200 50  0001 C CNN
+F 1 "GND" H 7100 5100 59  0000 L BNN
+F 2 "" H 7200 5200 50  0001 C CNN
+F 3 "" H 7200 5200 50  0001 C CNN
+	1    7200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 7400 4900
+F 0 "#GND06" H 7400 4900 50  0001 C CNN
+F 1 "GND" H 7300 4800 59  0000 L BNN
+F 2 "" H 7400 4900 50  0001 C CNN
+F 3 "" H 7400 4900 50  0001 C CNN
+	1    7400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RS4
+U 1 1 4096F4E4
+P 7000 5900
+F 0 "RS4" H 7000 5960 70  0000 C BNN
+F 1 " " H 7000 5840 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 7000 5900 50  0001 C CNN
+F 3 "" H 7000 5900 50  0001 C CNN
+	1    7000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RP4
+U 1 1 0ACBE43A
+P 7200 6100
+F 0 "RP4" H 7200 6160 70  0000 C BNN
+F 1 " " H 7200 6040 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 7200 6100 50  0001 C CNN
+F 3 "" H 7200 6100 50  0001 C CNN
+	1    7200 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:MOSFET-NREFLOW Q4
+U 1 1 323115D8
+P 7300 5800
+F 0 "Q4" H 7500 5825 42  0000 L BNN
+F 1 "MOSFET-NREFLOW" H 7500 5750 42  0000 L BNN
+F 2 "swimming star nrf:SOT23" H 7300 5800 50  0001 C CNN
+F 3 "" H 7300 5800 50  0001 C CNN
+	1    7300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 7200 6400
+F 0 "#GND07" H 7200 6400 50  0001 C CNN
+F 1 "GND" H 7100 6300 59  0000 L BNN
+F 2 "" H 7200 6400 50  0001 C CNN
+F 3 "" H 7200 6400 50  0001 C CNN
+	1    7200 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 7400 6100
+F 0 "#GND08" H 7400 6100 50  0001 C CNN
+F 1 "GND" H 7300 6000 59  0000 L BNN
+F 2 "" H 7400 6100 50  0001 C CNN
+F 3 "" H 7400 6100 50  0001 C CNN
+	1    7400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RS5
+U 1 1 999681F4
+P 9700 2200
+F 0 "RS5" H 9700 2260 70  0000 C BNN
+F 1 " " H 9700 2140 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 9700 2200 50  0001 C CNN
+F 3 "" H 9700 2200 50  0001 C CNN
+	1    9700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RP5
+U 1 1 3EAD81F6
+P 9900 2400
+F 0 "RP5" H 9900 2460 70  0000 C BNN
+F 1 " " H 9900 2340 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 9900 2400 50  0001 C CNN
+F 3 "" H 9900 2400 50  0001 C CNN
+	1    9900 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:MOSFET-NREFLOW Q5
+U 1 1 2EFB3759
+P 10000 2100
+F 0 "Q5" H 10200 2125 42  0000 L BNN
+F 1 "MOSFET-NREFLOW" H 10200 2050 42  0000 L BNN
+F 2 "swimming star nrf:SOT23" H 10000 2100 50  0001 C CNN
+F 3 "" H 10000 2100 50  0001 C CNN
+	1    10000 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND09
+U 1 1 928DF91D
+P 9900 2700
+F 0 "#GND09" H 9900 2700 50  0001 C CNN
+F 1 "GND" H 9800 2600 59  0000 L BNN
+F 2 "" H 9900 2700 50  0001 C CNN
+F 3 "" H 9900 2700 50  0001 C CNN
+	1    9900 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND010
+U 1 1 845C69E3
+P 10100 2400
+F 0 "#GND010" H 10100 2400 50  0001 C CNN
+F 1 "GND" H 10000 2300 59  0000 L BNN
+F 2 "" H 10100 2400 50  0001 C CNN
+F 3 "" H 10100 2400 50  0001 C CNN
+	1    10100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RS6
+U 1 1 3FAC0B04
+P 9700 3500
+F 0 "RS6" H 9700 3560 70  0000 C BNN
+F 1 " " H 9700 3440 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 9700 3500 50  0001 C CNN
+F 3 "" H 9700 3500 50  0001 C CNN
+	1    9700 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RP6
+U 1 1 21965BDF
+P 9900 3700
+F 0 "RP6" H 9900 3760 70  0000 C BNN
+F 1 " " H 9900 3640 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 9900 3700 50  0001 C CNN
+F 3 "" H 9900 3700 50  0001 C CNN
+	1    9900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:MOSFET-NREFLOW Q6
+U 1 1 A7ECA7AB
+P 10000 3400
+F 0 "Q6" H 10200 3425 42  0000 L BNN
+F 1 "MOSFET-NREFLOW" H 10200 3350 42  0000 L BNN
+F 2 "swimming star nrf:SOT23" H 10000 3400 50  0001 C CNN
+F 3 "" H 10000 3400 50  0001 C CNN
+	1    10000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND011
+U 1 1 19DA8D48
+P 9900 4000
+F 0 "#GND011" H 9900 4000 50  0001 C CNN
+F 1 "GND" H 9800 3900 59  0000 L BNN
+F 2 "" H 9900 4000 50  0001 C CNN
+F 3 "" H 9900 4000 50  0001 C CNN
+	1    9900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND012
+U 1 1 A5F18D96
+P 10100 3700
+F 0 "#GND012" H 10100 3700 50  0001 C CNN
+F 1 "GND" H 10000 3600 59  0000 L BNN
+F 2 "" H 10100 3700 50  0001 C CNN
+F 3 "" H 10100 3700 50  0001 C CNN
+	1    10100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:V_REG_SPX3819-SOT23-5 U$2
+U 1 1 F2F26A6E
+P 4800 6100
+F 0 "U$2" H 4500 6420 70  0000 L BNN
+F 1 "SPX3819M5_3_3" H 4500 5780 70  0000 L TNN
+F 2 "swimming star nrf:SOT23-5" H 4800 6100 50  0001 C CNN
+F 3 "" H 4800 6100 50  0001 C CNN
+	1    4800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND017
+U 1 1 0A5A0AC8
+P 4300 6100
+F 0 "#GND017" H 4300 6100 50  0001 C CNN
+F 1 "GND" H 4200 6000 59  0000 L BNN
+F 2 "" H 4300 6100 50  0001 C CNN
+F 3 "" H 4300 6100 50  0001 C CNN
+	1    4300 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND018
+U 1 1 E0081D19
+P 4300 4400
+F 0 "#GND018" H 4300 4400 50  0001 C CNN
+F 1 "GND" H 4200 4300 59  0000 L BNN
+F 2 "" H 4300 4400 50  0001 C CNN
+F 3 "" H 4300 4400 50  0001 C CNN
+	1    4300 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:61300211121 J9
+U 1 1 5EBF55DB
+P 1200 2300
+F 0 "J9" H 1100 2460 42  0000 L BNN
+F 1 "61300211121" H 1100 2000 42  0000 L BNN
+F 2 "swimming star nrf:61300211121" H 1200 2300 50  0001 C CNN
+F 3 "" H 1200 2300 50  0001 C CNN
+	1    1200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:61300311121 J10
+U 1 1 A8F50699
+P 1000 6200
+F 0 "J10" H 900 6460 42  0000 L BNN
+F 1 "61300311121" H 900 5900 42  0000 L BNN
+F 2 "swimming star nrf:61300311121" H 1000 6200 50  0001 C CNN
+F 3 "" H 1000 6200 50  0001 C CNN
+	1    1000 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND024
+U 1 1 664B2FAE
+P 1400 6100
+F 0 "#GND024" H 1400 6100 50  0001 C CNN
+F 1 "GND" H 1300 6000 59  0000 L BNN
+F 2 "" H 1400 6100 50  0001 C CNN
+F 3 "" H 1400 6100 50  0001 C CNN
+	1    1400 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:+8V #SUPPLY09
+U 1 1 7F737C64
+P 4400 5600
+F 0 "#SUPPLY09" H 4400 5600 50  0001 C CNN
+F 1 "+8V" H 4325 5725 59  0000 L BNN
+F 2 "" H 4400 5600 50  0001 C CNN
+F 3 "" H 4400 5600 50  0001 C CNN
+	1    4400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:C-USC0402 C2
+U 1 1 733CA19D
+P 4700 2200
+F 0 "C2" H 4740 2225 59  0000 L BNN
+F 1 "C-USC0402" H 4740 2035 59  0000 L BNN
+F 2 "swimming star nrf:C0402" H 4700 2200 50  0001 C CNN
+F 3 "" H 4700 2200 50  0001 C CNN
+	1    4700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND028
+U 1 1 0345B4CC
+P 4700 2500
+F 0 "#GND028" H 4700 2500 50  0001 C CNN
+F 1 "GND" H 4600 2400 59  0000 L BNN
+F 2 "" H 4700 2500 50  0001 C CNN
+F 3 "" H 4700 2500 50  0001 C CNN
+	1    4700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RS7
+U 1 1 17569DE8
+P 9700 4700
+F 0 "RS7" H 9700 4760 70  0000 C BNN
+F 1 " " H 9700 4640 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 9700 4700 50  0001 C CNN
+F 3 "" H 9700 4700 50  0001 C CNN
+	1    9700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RP7
+U 1 1 DAD6AACB
+P 9900 4900
+F 0 "RP7" H 9900 4960 70  0000 C BNN
+F 1 " " H 9900 4840 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 9900 4900 50  0001 C CNN
+F 3 "" H 9900 4900 50  0001 C CNN
+	1    9900 4900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:MOSFET-NREFLOW Q7
+U 1 1 41AA6AFD
+P 10000 4600
+F 0 "Q7" H 10200 4625 42  0000 L BNN
+F 1 "MOSFET-NREFLOW" H 10200 4550 42  0000 L BNN
+F 2 "swimming star nrf:SOT23" H 10000 4600 50  0001 C CNN
+F 3 "" H 10000 4600 50  0001 C CNN
+	1    10000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND014
+U 1 1 109F320A
+P 9900 5200
+F 0 "#GND014" H 9900 5200 50  0001 C CNN
+F 1 "GND" H 9800 5100 59  0000 L BNN
+F 2 "" H 9900 5200 50  0001 C CNN
+F 3 "" H 9900 5200 50  0001 C CNN
+	1    9900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND015
+U 1 1 257B06B4
+P 10100 4900
+F 0 "#GND015" H 10100 4900 50  0001 C CNN
+F 1 "GND" H 10000 4800 59  0000 L BNN
+F 2 "" H 10100 4900 50  0001 C CNN
+F 3 "" H 10100 4900 50  0001 C CNN
+	1    10100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RS8
+U 1 1 8C6F9D47
+P 9700 5800
+F 0 "RS8" H 9700 5860 70  0000 C BNN
+F 1 " " H 9700 5740 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 9700 5800 50  0001 C CNN
+F 3 "" H 9700 5800 50  0001 C CNN
+	1    9700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:RESISTOR0402 RP8
+U 1 1 3483528B
+P 9900 6000
+F 0 "RP8" H 9900 6060 70  0000 C BNN
+F 1 " " H 9900 5940 70  0000 C TNN
+F 2 "swimming star nrf:0402" H 9900 6000 50  0001 C CNN
+F 3 "" H 9900 6000 50  0001 C CNN
+	1    9900 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:MOSFET-NREFLOW Q8
+U 1 1 68AC602B
+P 10000 5700
+F 0 "Q8" H 10200 5725 42  0000 L BNN
+F 1 "MOSFET-NREFLOW" H 10200 5650 42  0000 L BNN
+F 2 "swimming star nrf:SOT23" H 10000 5700 50  0001 C CNN
+F 3 "" H 10000 5700 50  0001 C CNN
+	1    10000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND016
+U 1 1 99D4D269
+P 9900 6300
+F 0 "#GND016" H 9900 6300 50  0001 C CNN
+F 1 "GND" H 9800 6200 59  0000 L BNN
+F 2 "" H 9900 6300 50  0001 C CNN
+F 3 "" H 9900 6300 50  0001 C CNN
+	1    9900 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:GND #GND025
+U 1 1 2EE633C3
+P 10100 6000
+F 0 "#GND025" H 10100 6000 50  0001 C CNN
+F 1 "GND" H 10000 5900 59  0000 L BNN
+F 2 "" H 10100 6000 50  0001 C CNN
+F 3 "" H 10100 6000 50  0001 C CNN
+	1    10100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:61300211121 J11
+U 1 1 7CAC28DC
+P 11000 5600
+F 0 "J11" H 10900 5760 42  0000 L BNN
+F 1 "61300211121" H 10900 5300 42  0000 L BNN
+F 2 "swimming star nrf:61300211121" H 11000 5600 50  0001 C CNN
+F 3 "" H 11000 5600 50  0001 C CNN
+	1    11000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:+8V #SUPPLY06
+U 1 1 C21E2EB3
+P 11400 5500
+F 0 "#SUPPLY06" H 11400 5500 50  0001 C CNN
+F 1 "+8V" H 11325 5625 59  0000 L BNN
+F 2 "" H 11400 5500 50  0001 C CNN
+F 3 "" H 11400 5500 50  0001 C CNN
+	1    11400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L swimming_star_nrf-eagle-import:BL652-SA-01 U1
+U 1 1 F9562130
+P 3000 3600
+F 0 "U1" H 1898 5001 85  0000 L BNN
+F 1 "BL652-SA-01" H 1897 2297 85  0000 L BNN
+F 2 "swimming star nrf:XCVR_BL652-SA-01" H 3000 3600 50  0001 C CNN
+F 3 "" H 3000 3600 50  0001 C CNN
+	1    3000 3600
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

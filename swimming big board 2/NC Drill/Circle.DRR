@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: Circle.CMPcbDoc   6/4/2019  10:46:38 AM
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Circle.TXT
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        10mil (0.254mm)          Round          3                0.79 Inch (20.04 mm)
+T2        28mil (0.7112mm)         Round          18               5.25 Inch (133.30 mm)
+T3        30mil (0.762mm)          Round          4                1.61 Inch (40.79 mm)
+T4        40mil (1.016mm)          Round          18               6.29 Inch (159.75 mm)
+T5        40.16mil (1.02006mm)     Round          3                0.20 Inch (5.08 mm)
+---------------------------------------------------------------------------
+Totals                                            46               14.13 Inch (358.96 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

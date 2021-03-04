@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "swimming star nrf")(type KiCad)(uri "$(KIPRJMOD)/swimming star nrf.pretty")(options "")(descr ""))
+)

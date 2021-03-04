@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-07-12T14:03:49Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.4.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "breakout"
+        },
+        "Owner": "Zachary Patterson <zpatters@andrew.cmu.edu>",
+        "Size": {
+            "X": 22.86,
+            "Y": 20.32
+        }
+    }
+}
