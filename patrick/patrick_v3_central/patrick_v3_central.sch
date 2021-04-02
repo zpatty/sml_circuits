@@ -431,42 +431,42 @@ Wire Wire Line
 Text Label 2400 2850 0    50   ~ 0
 +3V
 Wire Wire Line
-	1800 2850 1250 2850
+	1800 3050 1250 3050
 Wire Wire Line
-	1800 2950 1250 2950
-Text Label 1300 2850 0    50   ~ 0
+	1800 2850 1250 2850
+Text Label 1300 3050 0    50   ~ 0
 SCL
-Text Label 1300 2950 0    50   ~ 0
+Text Label 1300 2850 0    50   ~ 0
 SDA
+Wire Wire Line
+	3900 3050 3350 3050
 Wire Wire Line
 	3900 2850 3350 2850
-Wire Wire Line
-	3900 2950 3350 2950
-Text Label 3400 2850 0    50   ~ 0
+Text Label 3400 3050 0    50   ~ 0
 SCL
-Text Label 3400 2950 0    50   ~ 0
+Text Label 3400 2850 0    50   ~ 0
 SDA
+Wire Wire Line
+	6000 2950 5450 2950
 Wire Wire Line
 	6000 2750 5450 2750
-Wire Wire Line
-	6000 2850 5450 2850
-Text Label 5500 2850 0    50   ~ 0
+Text Label 5500 2750 0    50   ~ 0
 SDA
+Wire Wire Line
+	7900 2900 7350 2900
 Wire Wire Line
 	7900 2700 7350 2700
-Wire Wire Line
-	7900 2800 7350 2800
-Text Label 7400 2700 0    50   ~ 0
+Text Label 7400 2900 0    50   ~ 0
 SCL
-Text Label 7400 2800 0    50   ~ 0
+Text Label 7400 2700 0    50   ~ 0
 SDA
 Wire Wire Line
-	9750 2650 9200 2650
+	9750 2850 9200 2850
 Wire Wire Line
-	9750 2750 9200 2750
-Text Label 9250 2650 0    50   ~ 0
+	9750 2650 9200 2650
+Text Label 9250 2850 0    50   ~ 0
 SCL
-Text Label 9250 2750 0    50   ~ 0
+Text Label 9250 2650 0    50   ~ 0
 SDA
 Wire Wire Line
 	15350 4900 15300 4900
@@ -543,63 +543,57 @@ Wire Wire Line
 Connection ~ 15000 6550
 Wire Wire Line
 	15000 6550 15000 6800
-Text Label 5500 2750 0    50   ~ 0
+Text Label 5500 2950 0    50   ~ 0
 SCL
 Wire Wire Line
 	6500 2950 7200 2950
 Text Label 6700 2950 0    70   ~ 0
 SMA2_SIG
-Text Label 6550 3050 0    70   ~ 0
+Text Label 5800 3050 0    70   ~ 0
 SMA3_SIG
 Wire Wire Line
-	6000 3050 5700 3050
+	6000 2850 5700 2850
 Wire Wire Line
-	7900 3000 7600 3000
-Text Label 7600 3000 0    70   ~ 0
-SMA8_SIG
+	7900 2800 7600 2800
 Wire Wire Line
-	8600 3000 8400 3000
-Text Label 8400 3000 0    70   ~ 0
+	7900 3000 7700 3000
+Text Label 7700 3000 0    70   ~ 0
 SMA7_SIG
 Wire Wire Line
 	8400 2900 9100 2900
 Text Label 8600 2900 0    70   ~ 0
 SMA6_SIG
 Wire Wire Line
-	9750 2950 9450 2950
-Text Label 9450 2950 0    70   ~ 0
+	9750 2750 9450 2750
+Text Label 9450 2750 0    70   ~ 0
 SMA12_SIG
 Wire Wire Line
 	10250 2850 10950 2850
 Text Label 10450 2850 0    70   ~ 0
 SMA10_SIG
 Wire Wire Line
-	10450 2950 10250 2950
-Text Label 10250 2950 0    70   ~ 0
+	9750 2950 9550 2950
+Text Label 9550 2950 0    70   ~ 0
 SMA11_SIG
 Wire Wire Line
-	1800 3150 1500 3150
-Text Label 1500 3150 0    70   ~ 0
-SMA16_SIG
+	1800 2950 1500 2950
 Wire Wire Line
 	2300 3050 3000 3050
 Text Label 2500 3050 0    70   ~ 0
 SMA14_SIG
 Wire Wire Line
-	2500 3150 2300 3150
-Text Label 2300 3150 0    70   ~ 0
+	1600 3150 1800 3150
+Text Label 1800 3150 2    70   ~ 0
 SMA15_SIG
 Wire Wire Line
-	3900 3150 3600 3150
-Text Label 3600 3150 0    70   ~ 0
-SMA20_SIG
+	3900 2950 3600 2950
 Wire Wire Line
 	4400 3050 5100 3050
 Text Label 4600 3050 0    70   ~ 0
 SMA18_SIG
 Wire Wire Line
-	4600 3150 4400 3150
-Text Label 4400 3150 0    70   ~ 0
+	3900 3150 3700 3150
+Text Label 3700 3150 0    70   ~ 0
 SMA19_SIG
 Wire Wire Line
 	8400 2800 9100 2800
@@ -622,51 +616,20 @@ SMA1_SIG
 Wire Wire Line
 	6500 2850 7200 2850
 Wire Wire Line
-	6500 3050 6750 3050
-Text Label 5700 3050 0    50   ~ 0
+	5750 3050 6000 3050
+Text Label 5700 2850 0    50   ~ 0
 SMA4_SIG
+Text Label 7600 2800 0    70   ~ 0
+SMA8_SIG
 $Comp
 L Connector_Generic:Conn_02x05_Counter_Clockwise J1
 U 1 1 60471947
 P 9950 2750
 F 0 "J1" H 10000 3167 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 10000 3076 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical" H 9950 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 9950 2750 50  0001 C CNN
 F 3 "~" H 9950 2750 50  0001 C CNN
 	1    9950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J2
-U 1 1 60487128
-P 2000 2950
-F 0 "J2" H 2050 3367 50  0000 C CNN
-F 1 "Conn_02x05_Counter_Clockwise" H 2050 3276 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical" H 2000 2950 50  0001 C CNN
-F 3 "~" H 2000 2950 50  0001 C CNN
-	1    2000 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J3
-U 1 1 604880A8
-P 4100 2950
-F 0 "J3" H 4150 3367 50  0000 C CNN
-F 1 "Conn_02x05_Counter_Clockwise" H 4150 3276 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical" H 4100 2950 50  0001 C CNN
-F 3 "~" H 4100 2950 50  0001 C CNN
-	1    4100 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J4
-U 1 1 60488DE7
-P 6200 2850
-F 0 "J4" H 6250 3267 50  0000 C CNN
-F 1 "Conn_02x05_Counter_Clockwise" H 6250 3176 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical" H 6200 2850 50  0001 C CNN
-F 3 "~" H 6200 2850 50  0001 C CNN
-	1    6200 2850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -675,9 +638,46 @@ U 1 1 60489940
 P 8100 2800
 F 0 "J5" H 8150 3217 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 8150 3126 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x10_P1.00mm_Vertical" H 8100 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 8100 2800 50  0001 C CNN
 F 3 "~" H 8100 2800 50  0001 C CNN
 	1    8100 2800
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J4
+U 1 1 60488DE7
+P 6200 2850
+F 0 "J4" H 6250 3267 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 6250 3176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 6200 2850 50  0001 C CNN
+F 3 "~" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J2
+U 1 1 60487128
+P 2000 2950
+F 0 "J2" H 2050 3367 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 2050 3276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 2000 2950 50  0001 C CNN
+F 3 "~" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	1    0    0    -1  
+$EndComp
+Text Label 1500 2950 0    70   ~ 0
+SMA16_SIG
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J3
+U 1 1 604880A8
+P 4100 2950
+F 0 "J3" H 4150 3367 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 4150 3276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 4100 2950 50  0001 C CNN
+F 3 "~" H 4100 2950 50  0001 C CNN
+	1    4100 2950
+	1    0    0    -1  
+$EndComp
+Text Label 3600 2950 0    70   ~ 0
+SMA20_SIG
 $EndSCHEMATC

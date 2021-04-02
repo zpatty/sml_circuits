@@ -259,17 +259,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 5300 5300 5300
 $Comp
-L Connector_Generic:Conn_01x10 J1
-U 1 1 6041AB42
-P 5500 2650
-F 0 "J1" H 5580 2642 50  0000 L CNN
-F 1 "Conn_01x10" H 5580 2551 50  0000 L CNN
-F 2 "MolexPicoClasp:Molex_Pico-Clasp_501331-1007_1x10-1MP_P1.00mm_Vertical" H 5500 2650 50  0001 C CNN
-F 3 "~" H 5500 2650 50  0001 C CNN
-	1    5500 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0101
 U 1 1 6041E6F7
 P 5300 2250
@@ -324,4 +313,15 @@ Wire Wire Line
 	4150 4550 4400 4550
 Wire Wire Line
 	4100 3700 4300 3700
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
+U 1 1 60669BB9
+P 5700 2800
+F 0 "J1" H 5750 3217 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 5750 3126 50  0000 C CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_2x05_P2.00mm_Vertical_SMD" H 5700 2800 50  0001 C CNN
+F 3 "~" H 5700 2800 50  0001 C CNN
+	1    5700 2800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
