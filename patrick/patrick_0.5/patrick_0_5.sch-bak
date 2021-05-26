@@ -46,7 +46,13 @@ Connection ~ 15300 3100
 Connection ~ 14800 3100
 Text Label 14900 3100 0    70   ~ 0
 +3V
-Text Label 11700 3400 0    70   ~ 0
+Wire Wire Line
+	12400 3400 12400 3000
+Wire Wire Line
+	12400 3000 13700 3000
+Wire Wire Line
+	13700 3000 13700 2700
+Text Label 12900 3000 0    70   ~ 0
 RESET
 Wire Wire Line
 	11600 3500 12400 3500
@@ -68,8 +74,8 @@ Wire Wire Line
 Text Label 9100 3800 0    70   ~ 0
 SMA1_SIG
 Wire Wire Line
-	14900 5200 14800 5200
-Text Label 14900 5200 2    70   ~ 0
+	14900 5000 14800 5000
+Text Label 14900 5000 2    70   ~ 0
 SMA1_SIG
 Connection ~ 10000 5100
 Wire Wire Line
@@ -81,8 +87,8 @@ Wire Wire Line
 Text Label 9100 5100 0    70   ~ 0
 SMA2_SIG
 Wire Wire Line
-	14900 5300 14800 5300
-Text Label 14900 5300 2    70   ~ 0
+	14900 5100 14800 5100
+Text Label 14900 5100 2    70   ~ 0
 SMA2_SIG
 Connection ~ 10000 6500
 Wire Wire Line
@@ -94,8 +100,8 @@ Wire Wire Line
 Text Label 9400 6500 0    70   ~ 0
 SMA3_SIG
 Wire Wire Line
-	14900 4200 14800 4200
-Text Label 14900 4200 2    70   ~ 0
+	14900 5200 14800 5200
+Text Label 14900 5200 2    70   ~ 0
 SMA3_SIG
 Connection ~ 10000 7700
 Wire Wire Line
@@ -103,8 +109,8 @@ Wire Wire Line
 Text Label 9600 7700 0    10   ~ 0
 SMA4_SIG
 Wire Wire Line
-	14900 4000 14800 4000
-Text Label 14900 4000 2    70   ~ 0
+	14900 5300 14800 5300
+Text Label 14900 5300 2    70   ~ 0
 SMA4_SIG
 Wire Wire Line
 	10200 7400 10200 7300
@@ -279,8 +285,8 @@ Wire Wire Line
 Text Label 1200 6500 0    70   ~ 0
 SMA19_SIG
 Wire Wire Line
-	14800 5000 14900 5000
-Text Label 14800 5000 0    70   ~ 0
+	14800 4800 14900 4800
+Text Label 14800 4800 0    70   ~ 0
 SMA19_SIG
 Wire Wire Line
 	2000 6200 2000 6100
@@ -337,24 +343,24 @@ $EndComp
 $Comp
 L patrick_0.5-eagle-import:61300211121 J9
 U 1 1 5EBF55DB
-P 13900 2400
-F 0 "J9" H 13800 2560 42  0000 L BNN
-F 1 "61300211121" H 13800 2100 42  0000 L BNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 13900 2400 50  0001 C CNN
-F 3 "" H 13900 2400 50  0001 C CNN
-	1    13900 2400
-	0    1    1    0   
+P 11300 3500
+F 0 "J9" H 11200 3660 42  0000 L BNN
+F 1 "61300211121" H 11200 3200 42  0000 L BNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 11300 3500 50  0001 C CNN
+F 3 "" H 11300 3500 50  0001 C CNN
+	1    11300 3500
+	1    0    0    -1  
 $EndComp
 $Comp
 L patrick_0.5-eagle-import:61300311121 J10
 U 1 1 A8F50699
-P 11300 3500
-F 0 "J10" H 11200 3760 42  0000 L BNN
-F 1 "61300311121" H 11200 3200 42  0000 L BNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 11300 3500 50  0001 C CNN
-F 3 "" H 11300 3500 50  0001 C CNN
-	1    11300 3500
-	1    0    0    -1  
+P 13800 2400
+F 0 "J10" H 13700 2660 42  0000 L BNN
+F 1 "61300311121" H 13700 2100 42  0000 L BNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 13800 2400 50  0001 C CNN
+F 3 "" H 13800 2400 50  0001 C CNN
+	1    13800 2400
+	0    1    1    0   
 $EndComp
 $Comp
 L patrick_0.5-eagle-import:+8V #SUPPLY09
@@ -1767,8 +1773,8 @@ $EndComp
 Wire Wire Line
 	15300 3100 15700 3100
 Wire Wire Line
-	14800 5100 14900 5100
-Text Label 14800 5100 0    70   ~ 0
+	14800 4900 14900 4900
+Text Label 14800 4900 0    70   ~ 0
 SMA20_SIG
 Text Label 14800 4500 0    70   ~ 0
 SMA16_SIG
@@ -1805,6 +1811,4 @@ Text Label 12300 5000 2    70   ~ 0
 SMA9_SIG
 Wire Wire Line
 	12400 5000 12300 5000
-Wire Wire Line
-	12400 3400 11600 3400
 $EndSCHEMATC
