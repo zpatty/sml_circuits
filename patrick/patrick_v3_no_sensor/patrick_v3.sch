@@ -439,4 +439,48 @@ Wire Wire Line
 Connection ~ 5500 1800
 Wire Wire Line
 	5500 1800 5500 2350
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60675DAA
+P 5800 4250
+F 0 "H1" H 5900 4296 50  0000 L CNN
+F 1 "MountingHole" H 5900 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 5800 4250 50  0001 C CNN
+F 3 "~" H 5800 4250 50  0001 C CNN
+	1    5800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6067608C
+P 6050 4250
+F 0 "H3" H 6150 4296 50  0000 L CNN
+F 1 "MountingHole" H 6150 4205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 6050 4250 50  0001 C CNN
+F 3 "~" H 6050 4250 50  0001 C CNN
+	1    6050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6067667B
+P 5800 4450
+F 0 "H2" H 5900 4496 50  0000 L CNN
+F 1 "MountingHole" H 5900 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 5800 4450 50  0001 C CNN
+F 3 "~" H 5800 4450 50  0001 C CNN
+	1    5800 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 60676DD5
+P 6050 4450
+F 0 "H4" H 6150 4496 50  0000 L CNN
+F 1 "MountingHole" H 6150 4405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 6050 4450 50  0001 C CNN
+F 3 "~" H 6050 4450 50  0001 C CNN
+	1    6050 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
