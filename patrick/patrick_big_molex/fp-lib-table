@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name molex_micro-fit_BMI)(type KiCad)(uri ${KIPRJMOD}/molex_micro-fit_BMI.pretty)(options "")(descr ""))
+)
