@@ -627,7 +627,7 @@ U 1 1 60471947
 P 9950 2750
 F 0 "J1" H 10000 3167 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 10000 3076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 9950 2750 50  0001 C CNN
+F 2 "Molex_Micro-Fit BMI Header:444281001" H 9950 2750 50  0001 C CNN
 F 3 "~" H 9950 2750 50  0001 C CNN
 	1    9950 2750
 	1    0    0    -1  
@@ -638,7 +638,7 @@ U 1 1 60489940
 P 8100 2800
 F 0 "J5" H 8150 3217 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 8150 3126 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 8100 2800 50  0001 C CNN
+F 2 "Molex_Micro-Fit BMI Header:444281001" H 8100 2800 50  0001 C CNN
 F 3 "~" H 8100 2800 50  0001 C CNN
 	1    8100 2800
 	1    0    0    -1  
@@ -649,7 +649,7 @@ U 1 1 60488DE7
 P 6200 2850
 F 0 "J4" H 6250 3267 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 6250 3176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 6200 2850 50  0001 C CNN
+F 2 "Molex_Micro-Fit BMI Header:444281001" H 6200 2850 50  0001 C CNN
 F 3 "~" H 6200 2850 50  0001 C CNN
 	1    6200 2850
 	1    0    0    -1  
@@ -660,7 +660,7 @@ U 1 1 60487128
 P 2000 2950
 F 0 "J2" H 2050 3367 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 2050 3276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 2000 2950 50  0001 C CNN
+F 2 "Molex_Micro-Fit BMI Header:444281001" H 2000 2950 50  0001 C CNN
 F 3 "~" H 2000 2950 50  0001 C CNN
 	1    2000 2950
 	1    0    0    -1  
@@ -673,7 +673,7 @@ U 1 1 604880A8
 P 4100 2950
 F 0 "J3" H 4150 3367 50  0000 C CNN
 F 1 "Conn_02x05_Counter_Clockwise" H 4150 3276 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 4100 2950 50  0001 C CNN
+F 2 "Molex_Micro-Fit BMI Header:444281001" H 4100 2950 50  0001 C CNN
 F 3 "~" H 4100 2950 50  0001 C CNN
 	1    4100 2950
 	1    0    0    -1  

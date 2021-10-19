@@ -84,10 +84,6 @@ Wire Wire Line
 Text Label 14800 3900 0    70   ~ 0
 SMA12_SIG
 Wire Wire Line
-	14800 4100 14900 4100
-Text Label 14800 4100 0    70   ~ 0
-SMA13_SIG
-Wire Wire Line
 	14800 4400 14900 4400
 Text Label 14800 4400 0    70   ~ 0
 SMA17_SIG
@@ -263,30 +259,14 @@ F 3 "" H 13600 4700 50  0001 C CNN
 	1    13600 4700
 	1    0    0    -1  
 $EndComp
-Text Label 14800 4300 0    70   ~ 0
-SMA14_SIG
-Wire Wire Line
-	14800 4300 14900 4300
 Text Label 12300 4200 2    70   ~ 0
 SMA8_SIG
 Wire Wire Line
 	12400 4200 12300 4200
-Text Label 12300 5100 0    70   ~ 0
-SMA10_SIG
-Wire Wire Line
-	12400 5100 12300 5100
-Text Label 12300 5300 0    70   ~ 0
-SMA11_SIG
-Wire Wire Line
-	12300 5300 12400 5300
-Text Label 12300 5000 2    70   ~ 0
+Text Label 12300 5100 2    70   ~ 0
 SMA9_SIG
 Wire Wire Line
-	12400 5000 12300 5000
-Text Label 14800 4600 0    70   ~ 0
-SMA15_SIG
-Wire Wire Line
-	14800 4600 14900 4600
+	12400 5100 12300 5100
 $Comp
 L patrick_0.5-eagle-import:61300311121 J10
 U 1 1 A8F50699
@@ -680,4 +660,24 @@ F 3 "~" H 4100 2950 50  0001 C CNN
 $EndComp
 Text Label 3600 2950 0    70   ~ 0
 SMA20_SIG
+Wire Wire Line
+	14800 4600 14900 4600
+Text Label 14800 4600 0    70   ~ 0
+SMA14_SIG
+Text Label 14800 4100 0    70   ~ 0
+SMA13_SIG
+Wire Wire Line
+	14800 4100 14900 4100
+Wire Wire Line
+	14800 4300 14900 4300
+Text Label 14800 4300 0    70   ~ 0
+SMA15_SIG
+Wire Wire Line
+	12400 5000 12300 5000
+Text Label 12400 5000 2    70   ~ 0
+SMA11_SIG
+Wire Wire Line
+	12300 5300 12400 5300
+Text Label 12400 5300 2    70   ~ 0
+SMA10_SIG
 $EndSCHEMATC
