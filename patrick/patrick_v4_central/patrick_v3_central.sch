@@ -431,42 +431,42 @@ Wire Wire Line
 Text Label 2400 2850 0    50   ~ 0
 +3V
 Wire Wire Line
-	1800 3050 1250 3050
+	2850 3150 2300 3150
 Wire Wire Line
-	1800 2850 1250 2850
-Text Label 1300 3050 0    50   ~ 0
+	1800 3050 1250 3050
+Text Label 2350 3150 0    50   ~ 0
 SCL
-Text Label 1300 2850 0    50   ~ 0
+Text Label 1300 3050 0    50   ~ 0
 SDA
+Wire Wire Line
+	4950 3150 4400 3150
 Wire Wire Line
 	3900 3050 3350 3050
-Wire Wire Line
-	3900 2850 3350 2850
-Text Label 3400 3050 0    50   ~ 0
+Text Label 4450 3150 0    50   ~ 0
 SCL
-Text Label 3400 2850 0    50   ~ 0
+Text Label 3400 3050 0    50   ~ 0
 SDA
+Wire Wire Line
+	7050 3050 6500 3050
 Wire Wire Line
 	6000 2950 5450 2950
-Wire Wire Line
-	6000 2750 5450 2750
-Text Label 5500 2750 0    50   ~ 0
+Text Label 5500 2950 0    50   ~ 0
 SDA
+Wire Wire Line
+	8950 3000 8400 3000
 Wire Wire Line
 	7900 2900 7350 2900
-Wire Wire Line
-	7900 2700 7350 2700
-Text Label 7400 2900 0    50   ~ 0
+Text Label 8450 3000 0    50   ~ 0
 SCL
-Text Label 7400 2700 0    50   ~ 0
+Text Label 7400 2900 0    50   ~ 0
 SDA
 Wire Wire Line
-	9750 2850 9200 2850
+	10800 2950 10250 2950
 Wire Wire Line
-	9750 2650 9200 2650
-Text Label 9250 2850 0    50   ~ 0
+	9750 2850 9200 2850
+Text Label 10300 2950 0    50   ~ 0
 SCL
-Text Label 9250 2650 0    50   ~ 0
+Text Label 9250 2850 0    50   ~ 0
 SDA
 Wire Wire Line
 	15350 4900 15300 4900
@@ -543,7 +543,7 @@ Wire Wire Line
 Connection ~ 15000 6550
 Wire Wire Line
 	15000 6550 15000 6800
-Text Label 5500 2950 0    50   ~ 0
+Text Label 6550 3050 0    50   ~ 0
 SCL
 Wire Wire Line
 	6500 2950 7200 2950
