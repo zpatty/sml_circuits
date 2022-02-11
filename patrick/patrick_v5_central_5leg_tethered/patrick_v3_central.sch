@@ -1,0 +1,615 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 20151 9159
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L patrick_0.5-eagle-import:GND #GND0101
+U 1 1 6043F0D8
+P 1700 2750
+F 0 "#GND0101" H 1700 2750 50  0001 C CNN
+F 1 "GND" H 1600 2650 59  0000 L BNN
+F 2 "" H 1700 2750 50  0001 C CNN
+F 3 "" H 1700 2750 50  0001 C CNN
+	1    1700 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0102
+U 1 1 60449B2F
+P 3800 2750
+F 0 "#GND0102" H 3800 2750 50  0001 C CNN
+F 1 "GND" H 3700 2650 59  0000 L BNN
+F 2 "" H 3800 2750 50  0001 C CNN
+F 3 "" H 3800 2750 50  0001 C CNN
+	1    3800 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0103
+U 1 1 6044D53C
+P 5900 2650
+F 0 "#GND0103" H 5900 2650 50  0001 C CNN
+F 1 "GND" H 5800 2550 59  0000 L BNN
+F 2 "" H 5900 2650 50  0001 C CNN
+F 3 "" H 5900 2650 50  0001 C CNN
+	1    5900 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0104
+U 1 1 60456D95
+P 7800 2600
+F 0 "#GND0104" H 7800 2600 50  0001 C CNN
+F 1 "GND" H 7700 2500 59  0000 L BNN
+F 2 "" H 7800 2600 50  0001 C CNN
+F 3 "" H 7800 2600 50  0001 C CNN
+	1    7800 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0105
+U 1 1 6045AA97
+P 9650 2550
+F 0 "#GND0105" H 9650 2550 50  0001 C CNN
+F 1 "GND" H 9550 2450 59  0000 L BNN
+F 2 "" H 9650 2550 50  0001 C CNN
+F 3 "" H 9650 2550 50  0001 C CNN
+	1    9650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:+8V #SUPPLY0101
+U 1 1 604730CA
+P 10350 2550
+F 0 "#SUPPLY0101" H 10350 2550 50  0001 C CNN
+F 1 "+8V" H 10275 2675 59  0000 L BNN
+F 2 "" H 10350 2550 50  0001 C CNN
+F 3 "" H 10350 2550 50  0001 C CNN
+	1    10350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:+8V #SUPPLY0102
+U 1 1 60476F5E
+P 8500 2600
+F 0 "#SUPPLY0102" H 8500 2600 50  0001 C CNN
+F 1 "+8V" H 8425 2725 59  0000 L BNN
+F 2 "" H 8500 2600 50  0001 C CNN
+F 3 "" H 8500 2600 50  0001 C CNN
+	1    8500 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:+8V #SUPPLY0103
+U 1 1 6047ADB6
+P 6600 2650
+F 0 "#SUPPLY0103" H 6600 2650 50  0001 C CNN
+F 1 "+8V" H 6525 2775 59  0000 L BNN
+F 2 "" H 6600 2650 50  0001 C CNN
+F 3 "" H 6600 2650 50  0001 C CNN
+	1    6600 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:+8V #SUPPLY0104
+U 1 1 6047EC7A
+P 4500 2750
+F 0 "#SUPPLY0104" H 4500 2750 50  0001 C CNN
+F 1 "+8V" H 4425 2875 59  0000 L BNN
+F 2 "" H 4500 2750 50  0001 C CNN
+F 3 "" H 4500 2750 50  0001 C CNN
+	1    4500 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:+8V #SUPPLY0105
+U 1 1 6048656C
+P 2400 2750
+F 0 "#SUPPLY0105" H 2400 2750 50  0001 C CNN
+F 1 "+8V" H 2325 2875 59  0000 L BNN
+F 2 "" H 2400 2750 50  0001 C CNN
+F 3 "" H 2400 2750 50  0001 C CNN
+	1    2400 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8400 2800 8550 2800
+Text Label 8500 2800 0    50   ~ 0
++3V
+Wire Wire Line
+	6500 2850 6650 2850
+Text Label 6600 2850 0    50   ~ 0
++3V
+Wire Wire Line
+	10250 2750 10400 2750
+Text Label 10350 2750 0    50   ~ 0
++3V
+Wire Wire Line
+	4400 2950 4550 2950
+Text Label 4500 2950 0    50   ~ 0
++3V
+Wire Wire Line
+	2300 2950 2450 2950
+Text Label 2400 2950 0    50   ~ 0
++3V
+Wire Wire Line
+	2850 3150 2300 3150
+Wire Wire Line
+	1800 3050 1250 3050
+Text Label 2350 3150 0    50   ~ 0
+SCL
+Text Label 1300 3050 0    50   ~ 0
+SDA
+Wire Wire Line
+	4950 3150 4400 3150
+Wire Wire Line
+	3900 3050 3350 3050
+Text Label 4450 3150 0    50   ~ 0
+SCL
+Text Label 3400 3050 0    50   ~ 0
+SDA
+Wire Wire Line
+	7050 3050 6500 3050
+Wire Wire Line
+	6000 2950 5450 2950
+Text Label 5500 2950 0    50   ~ 0
+SDA
+Wire Wire Line
+	8950 3000 8400 3000
+Wire Wire Line
+	7900 2900 7350 2900
+Text Label 8450 3000 0    50   ~ 0
+SCL
+Text Label 7400 2900 0    50   ~ 0
+SDA
+Wire Wire Line
+	10800 2950 10250 2950
+Wire Wire Line
+	9750 2850 9200 2850
+Text Label 10300 2950 0    50   ~ 0
+SCL
+Text Label 9250 2850 0    50   ~ 0
+SDA
+Text Label 6550 3050 0    50   ~ 0
+SCL
+Wire Wire Line
+	6500 2950 7200 2950
+Text Label 6700 2950 0    70   ~ 0
+SMA2_SIG
+Text Label 5800 3050 0    70   ~ 0
+SMA3_SIG
+Wire Wire Line
+	6000 2850 5700 2850
+Wire Wire Line
+	7900 2800 7600 2800
+Wire Wire Line
+	7900 3000 7700 3000
+Text Label 7700 3000 0    70   ~ 0
+SMA7_SIG
+Wire Wire Line
+	8400 2900 9100 2900
+Text Label 8600 2900 0    70   ~ 0
+SMA6_SIG
+Wire Wire Line
+	9750 2750 9450 2750
+Text Label 9450 2750 0    70   ~ 0
+SMA12_SIG
+Wire Wire Line
+	10250 2850 10950 2850
+Text Label 10450 2850 0    70   ~ 0
+SMA10_SIG
+Wire Wire Line
+	9750 2950 9550 2950
+Text Label 9550 2950 0    70   ~ 0
+SMA11_SIG
+Wire Wire Line
+	1800 2950 1500 2950
+Wire Wire Line
+	2300 3050 3000 3050
+Text Label 2500 3050 0    70   ~ 0
+SMA14_SIG
+Wire Wire Line
+	1600 3150 1800 3150
+Text Label 1800 3150 2    70   ~ 0
+SMA15_SIG
+Wire Wire Line
+	3900 2950 3600 2950
+Wire Wire Line
+	4400 3050 5100 3050
+Text Label 4600 3050 0    70   ~ 0
+SMA18_SIG
+Wire Wire Line
+	3900 3150 3700 3150
+Text Label 3700 3150 0    70   ~ 0
+SMA19_SIG
+Wire Wire Line
+	8400 2700 9100 2700
+Text Label 8625 2700 0    70   ~ 0
+SMA5_SIG
+Wire Wire Line
+	10250 2650 10950 2650
+Text Label 10450 2650 0    70   ~ 0
+SMA9_SIG
+Wire Wire Line
+	2300 2850 3000 2850
+Text Label 2500 2850 0    70   ~ 0
+SMA13_SIG
+Wire Wire Line
+	4400 2850 5100 2850
+Text Label 4600 2850 0    70   ~ 0
+SMA17_SIG
+Text Label 6700 2750 0    70   ~ 0
+SMA1_SIG
+Wire Wire Line
+	6500 2750 7200 2750
+Wire Wire Line
+	5750 3050 6000 3050
+Text Label 5700 2850 0    50   ~ 0
+SMA4_SIG
+Text Label 7600 2800 0    70   ~ 0
+SMA8_SIG
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J1
+U 1 1 60471947
+P 9950 2750
+F 0 "J1" H 10000 3167 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 10000 3076 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 9950 2750 50  0001 C CNN
+F 3 "~" H 9950 2750 50  0001 C CNN
+	1    9950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J5
+U 1 1 60489940
+P 8100 2800
+F 0 "J5" H 8150 3217 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 8150 3126 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 8100 2800 50  0001 C CNN
+F 3 "~" H 8100 2800 50  0001 C CNN
+	1    8100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J4
+U 1 1 60488DE7
+P 6200 2850
+F 0 "J4" H 6250 3267 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 6250 3176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 6200 2850 50  0001 C CNN
+F 3 "~" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J2
+U 1 1 60487128
+P 2000 2950
+F 0 "J2" H 2050 3367 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 2050 3276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 2000 2950 50  0001 C CNN
+F 3 "~" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	1    0    0    -1  
+$EndComp
+Text Label 1500 2950 0    70   ~ 0
+SMA16_SIG
+$Comp
+L Connector_Generic:Conn_02x05_Counter_Clockwise J3
+U 1 1 604880A8
+P 4100 2950
+F 0 "J3" H 4150 3367 50  0000 C CNN
+F 1 "Conn_02x05_Counter_Clockwise" H 4150 3276 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x05_P2.00mm_Vertical" H 4100 2950 50  0001 C CNN
+F 3 "~" H 4100 2950 50  0001 C CNN
+	1    4100 2950
+	1    0    0    -1  
+$EndComp
+Text Label 3600 2950 0    70   ~ 0
+SMA20_SIG
+$Comp
+L Connector_Generic:Conn_01x31 J6
+U 1 1 620442D6
+P 6150 5300
+F 0 "J6" H 6068 3575 50  0000 C CNN
+F 1 "Conn_01x31" H 6068 3666 50  0000 C CNN
+F 2 "24291-31PG-300:SWITCHCRAFT_24291-31PG-300" H 6150 5300 50  0001 C CNN
+F 3 "~" H 6150 5300 50  0001 C CNN
+	1    6150 5300
+	-1   0    0    1   
+$EndComp
+$Comp
+L ICM-20948:ICM-20948 U1
+U 1 1 62048933
+P 12400 6050
+F 0 "U1" H 12400 6917 50  0000 C CNN
+F 1 "ICM-20948" H 12400 6826 50  0000 C CNN
+F 2 "ICM-20948:QFN40P300X300X105-24N" H 12400 6050 50  0001 L BNN
+F 3 "" H 12400 6050 50  0001 L BNN
+F 4 "IPC 7351B" H 12400 6050 50  0001 L BNN "STANDARD"
+F 5 "TDK InvenSense" H 12400 6050 50  0001 L BNN "MANUFACTURER"
+F 6 "1.3" H 12400 6050 50  0001 L BNN "PARTREV"
+F 7 "1.05 mm" H 12400 6050 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+	1    12400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP1703T-1802E_CB:MCP1703T-1802E_CB U2
+U 1 1 6204B6D8
+P 15550 6100
+F 0 "U2" H 16250 6465 50  0000 C CNN
+F 1 "MCP1703T-1802E_CB" H 16250 6374 50  0000 C CNN
+F 2 "MCP1703T-1802E_CB:SOT95P255X145-3N" H 15550 6100 50  0001 L BNN
+F 3 "" H 15550 6100 50  0001 L BNN
+F 4 "1439516" H 15550 6100 50  0001 L BNN "OC_FARNELL"
+F 5 "MICROCHIP" H 15550 6100 50  0001 L BNN "SUPPLIER"
+F 6 "MCP1703T-1802E/CB" H 15550 6100 50  0001 L BNN "MPN"
+F 7 "SOT23-3" H 15550 6100 50  0001 L BNN "PACKAGE"
+F 8 "58M8874" H 15550 6100 50  0001 L BNN "OC_NEWARK"
+	1    15550 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11600 6050 11050 6050
+Text Label 11100 6050 0    50   ~ 0
+SCL
+Wire Wire Line
+	11600 6150 11050 6150
+Text Label 11100 6150 0    50   ~ 0
+SDA
+$Comp
+L patrick_0.5-eagle-import:GND #GND0106
+U 1 1 62056F73
+P 11500 6450
+F 0 "#GND0106" H 11500 6450 50  0001 C CNN
+F 1 "GND" H 11400 6350 59  0000 L BNN
+F 2 "" H 11500 6450 50  0001 C CNN
+F 3 "" H 11500 6450 50  0001 C CNN
+	1    11500 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0107
+U 1 1 62058106
+P 13300 6650
+F 0 "#GND0107" H 13300 6650 50  0001 C CNN
+F 1 "GND" H 13200 6550 59  0000 L BNN
+F 2 "" H 13300 6650 50  0001 C CNN
+F 3 "" H 13300 6650 50  0001 C CNN
+	1    13300 6650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0108
+U 1 1 62058CC9
+P 13300 6250
+F 0 "#GND0108" H 13300 6250 50  0001 C CNN
+F 1 "GND" H 13200 6150 59  0000 L BNN
+F 2 "" H 13300 6250 50  0001 C CNN
+F 3 "" H 13300 6250 50  0001 C CNN
+	1    13300 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0109
+U 1 1 62059BE1
+P 13600 5950
+F 0 "#GND0109" H 13600 5950 50  0001 C CNN
+F 1 "GND" H 13500 5850 59  0000 L BNN
+F 2 "" H 13600 5950 50  0001 C CNN
+F 3 "" H 13600 5950 50  0001 C CNN
+	1    13600 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0110
+U 1 1 6205AADA
+P 13450 5050
+F 0 "#GND0110" H 13450 5050 50  0001 C CNN
+F 1 "GND" H 13350 4950 59  0000 L BNN
+F 2 "" H 13450 5050 50  0001 C CNN
+F 3 "" H 13450 5050 50  0001 C CNN
+	1    13450 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:GND #GND0111
+U 1 1 6205BC16
+P 11500 5950
+F 0 "#GND0111" H 11500 5950 50  0001 C CNN
+F 1 "GND" H 11400 5850 59  0000 L BNN
+F 2 "" H 11500 5950 50  0001 C CNN
+F 3 "" H 11500 5950 50  0001 C CNN
+	1    11500 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 6205DE4C
+P 13350 5950
+F 0 "C1" V 13098 5950 50  0000 C CNN
+F 1 "C" V 13189 5950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 13388 5800 50  0001 C CNN
+F 3 "~" H 13350 5950 50  0001 C CNN
+	1    13350 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 62061829
+P 13450 5300
+F 0 "C2" V 13198 5300 50  0000 C CNN
+F 1 "C" V 13289 5300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" H 13488 5150 50  0001 C CNN
+F 3 "~" H 13450 5300 50  0001 C CNN
+	1    13450 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 5450 13450 5450
+Wire Wire Line
+	13200 5550 13450 5550
+Wire Wire Line
+	13450 5550 13450 5450
+Connection ~ 13450 5450
+Wire Wire Line
+	13450 5450 14150 5450
+Wire Wire Line
+	14150 5450 14150 6100
+Wire Wire Line
+	11600 6250 11250 6250
+Wire Wire Line
+	11250 6250 11250 6900
+Wire Wire Line
+	11250 6900 14150 6900
+Wire Wire Line
+	14150 6900 14150 6100
+Connection ~ 14150 6100
+$Comp
+L patrick_0.5-eagle-import:GND #GND0112
+U 1 1 6206B4CA
+P 15650 5900
+F 0 "#GND0112" H 15650 5900 50  0001 C CNN
+F 1 "GND" H 15550 5800 59  0000 L BNN
+F 2 "" H 15650 5900 50  0001 C CNN
+F 3 "" H 15650 5900 50  0001 C CNN
+	1    15650 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L patrick_0.5-eagle-import:+8V #SUPPLY0106
+U 1 1 6206C6C4
+P 15650 6100
+F 0 "#SUPPLY0106" H 15650 6100 50  0001 C CNN
+F 1 "+8V" H 15575 6225 59  0000 L BNN
+F 2 "" H 15650 6100 50  0001 C CNN
+F 3 "" H 15650 6100 50  0001 C CNN
+	1    15650 6100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 6000 7050 6000
+Text Label 6550 6000 0    70   ~ 0
+SMA14_SIG
+Wire Wire Line
+	6350 6600 7050 6600
+Text Label 6550 6600 0    70   ~ 0
+SMA13_SIG
+Wire Wire Line
+	6650 5500 6350 5500
+Wire Wire Line
+	6550 6100 6350 6100
+Text Label 6350 6100 0    70   ~ 0
+SMA15_SIG
+Text Label 6350 5500 0    70   ~ 0
+SMA16_SIG
+Wire Wire Line
+	6350 4900 7050 4900
+Text Label 6550 4900 0    70   ~ 0
+SMA18_SIG
+Wire Wire Line
+	6350 5000 7050 5000
+Text Label 6550 5000 0    70   ~ 0
+SMA17_SIG
+Wire Wire Line
+	6650 4300 6350 4300
+Wire Wire Line
+	6550 4400 6350 4400
+Text Label 6350 4400 0    70   ~ 0
+SMA19_SIG
+Text Label 6350 4300 0    70   ~ 0
+SMA20_SIG
+Wire Wire Line
+	6350 4200 7050 4200
+Text Label 6550 4200 0    70   ~ 0
+SMA2_SIG
+Text Label 6550 3900 0    70   ~ 0
+SMA1_SIG
+Wire Wire Line
+	6350 3900 7050 3900
+Text Label 6400 3800 0    70   ~ 0
+SMA3_SIG
+Wire Wire Line
+	6350 3800 6600 3800
+Text Label 6350 4100 0    50   ~ 0
+SMA4_SIG
+Wire Wire Line
+	6650 4100 6350 4100
+$Comp
+L patrick_0.5-eagle-import:GND #GND0113
+U 1 1 620A84A7
+P 6450 6800
+F 0 "#GND0113" H 6450 6800 50  0001 C CNN
+F 1 "GND" H 6350 6700 59  0000 L BNN
+F 2 "" H 6450 6800 50  0001 C CNN
+F 3 "" H 6450 6800 50  0001 C CNN
+	1    6450 6800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6350 4500 7050 4500
+Text Label 6550 4500 0    70   ~ 0
+SMA6_SIG
+Wire Wire Line
+	6350 4000 7050 4000
+Text Label 6575 4000 0    70   ~ 0
+SMA5_SIG
+Wire Wire Line
+	6650 5600 6350 5600
+Wire Wire Line
+	6550 5100 6350 5100
+Text Label 6350 5100 0    70   ~ 0
+SMA7_SIG
+Text Label 6350 5600 0    70   ~ 0
+SMA8_SIG
+Wire Wire Line
+	6350 5700 7050 5700
+Text Label 6550 5700 0    70   ~ 0
+SMA10_SIG
+Wire Wire Line
+	6350 6200 7050 6200
+Text Label 6550 6200 0    70   ~ 0
+SMA9_SIG
+Wire Wire Line
+	6650 6700 6350 6700
+Text Label 6350 6700 0    70   ~ 0
+SMA12_SIG
+Wire Wire Line
+	6550 6300 6350 6300
+Text Label 6350 6300 0    70   ~ 0
+SMA11_SIG
+$Comp
+L patrick_0.5-eagle-import:+8V #SUPPLY0107
+U 1 1 620DD02A
+P 6450 6500
+F 0 "#SUPPLY0107" H 6450 6500 50  0001 C CNN
+F 1 "+8V" H 6375 6625 59  0000 L BNN
+F 2 "" H 6450 6500 50  0001 C CNN
+F 3 "" H 6450 6500 50  0001 C CNN
+	1    6450 6500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 4600 6500 4600
+Text Label 6450 4600 0    50   ~ 0
++3V
+Wire Wire Line
+	6350 5200 6900 5200
+Text Label 6850 5200 2    50   ~ 0
+SDA
+Wire Wire Line
+	6900 5800 6350 5800
+Text Label 6400 5800 0    50   ~ 0
+SCL
+$EndSCHEMATC
