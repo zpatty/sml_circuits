@@ -353,41 +353,41 @@ Wire Wire Line
 	5900 1900 6600 1900
 Text Label 6100 1900 0    70   ~ 0
 SMA1_SIG
-Text Label 9200 3850 0    70   ~ 0
+Text Label 9200 3050 0    70   ~ 0
 SMA2_SIG
 Wire Wire Line
-	9000 4350 9700 4350
-Text Label 9200 4350 0    70   ~ 0
+	9000 2750 9700 2750
+Text Label 9200 2750 0    70   ~ 0
 SMA1_SIG
 Wire Wire Line
-	9200 3150 9000 3150
-Text Label 9000 3150 0    50   ~ 0
+	9200 2950 9000 2950
+Text Label 9000 2950 0    50   ~ 0
 SMA4_SIG
 Wire Wire Line
 	5150 2200 5400 2200
 Text Label 5200 2200 0    70   ~ 0
 SMA3_SIG
 Wire Wire Line
-	9000 3250 9250 3250
-Text Label 9050 3250 0    70   ~ 0
+	9000 2650 9250 2650
+Text Label 9050 2650 0    70   ~ 0
 SMA3_SIG
 Wire Wire Line
-	9000 3850 9700 3850
+	9000 3050 9700 3050
 Wire Wire Line
-	9000 2950 9700 2950
-Text Label 9200 2950 0    70   ~ 0
+	9000 3350 9700 3350
+Text Label 9200 3350 0    70   ~ 0
 SMA6_SIG
 Wire Wire Line
-	9000 2650 9700 2650
-Text Label 9225 2650 0    70   ~ 0
+	9000 2850 9700 2850
+Text Label 9225 2850 0    70   ~ 0
 SMA5_SIG
 Wire Wire Line
-	9300 3350 9000 3350
-Text Label 9000 3350 0    70   ~ 0
+	9300 4450 9000 4450
+Text Label 9000 4450 0    70   ~ 0
 SMA8_SIG
 Wire Wire Line
-	9200 2850 9000 2850
-Text Label 9000 2850 0    70   ~ 0
+	9200 3950 9000 3950
+Text Label 9000 3950 0    70   ~ 0
 SMA7_SIG
 Text Label 8850 1900 0    70   ~ 0
 SMA12_SIG
@@ -405,14 +405,14 @@ Text Label 9850 1800 0    70   ~ 0
 SMA9_SIG
 Wire Wire Line
 	9650 1800 10350 1800
-Text Label 9200 5050 0    70   ~ 0
+Text Label 9200 4550 0    70   ~ 0
 SMA10_SIG
 Wire Wire Line
-	9000 5050 9700 5050
-Text Label 9200 4450 0    70   ~ 0
+	9000 4550 9700 4550
+Text Label 9200 5050 0    70   ~ 0
 SMA9_SIG
 Wire Wire Line
-	9000 4450 9700 4450
+	9000 5050 9700 5050
 Text Label 9000 5550 0    70   ~ 0
 SMA12_SIG
 Wire Wire Line
@@ -454,4 +454,16 @@ F 3 "" H 15000 8100 50  0001 C CNN
 	1    15000 8100
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	9000 4650 9550 4650
+Text Label 9500 4650 2    50   ~ 0
+SCL
+Wire Wire Line
+	9000 4050 9550 4050
+Text Label 9500 4050 2    50   ~ 0
+SDA
+Wire Wire Line
+	9000 3450 9150 3450
+Text Label 9100 3450 0    50   ~ 0
++3V
 $EndSCHEMATC
