@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "IS32FL3237-TQLA3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-10-24-17:05:16)
+    (mountForm default
+        (footprintRef "QFP50P900X900X120-49N")
+        (spec "System")
+    )
+)

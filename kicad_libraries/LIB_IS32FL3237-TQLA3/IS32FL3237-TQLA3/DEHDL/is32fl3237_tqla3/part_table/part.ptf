@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IS32FL3237_TQLA3'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER2_PART_NUMBER", "MOUSER2_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Lumissil", "IS32FL3237-TQLA3" (!) = "", "QFP50P900X900X120-49N", "Quad Flat Packages", "", "", "LED Lighting Drivers 36-Channel LED Driver, eTQFP-48 (9.0mm x 9.0mm)", "", "1.2 mm"
+END_PART
+
+END.
