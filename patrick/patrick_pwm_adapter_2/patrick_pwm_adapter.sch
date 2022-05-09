@@ -305,8 +305,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 1700 7800 1700
 Wire Wire Line
-	7800 1700 7800 1500
-Wire Wire Line
 	7300 1300 7400 1300
 Wire Wire Line
 	7600 1300 7600 1500
@@ -455,4 +453,22 @@ Connection ~ 8050 1350
 Connection ~ 7850 1200
 Wire Wire Line
 	8050 1200 8050 1350
+Text Label 7100 1550 0    50   ~ 0
+SCL
+Text Label 7200 1650 0    50   ~ 0
+SDA
+Wire Wire Line
+	7800 1600 8050 1600
+Wire Wire Line
+	8050 1600 8050 1500
+Wire Wire Line
+	7800 1500 7800 1600
+Connection ~ 7800 1600
+Wire Wire Line
+	7800 1600 7800 1700
+Connection ~ 8050 1500
+Text Label 7850 1750 0    50   ~ 0
+SDB
+Text Label 7300 1850 0    50   ~ 0
+ISET
 $EndSCHEMATC
