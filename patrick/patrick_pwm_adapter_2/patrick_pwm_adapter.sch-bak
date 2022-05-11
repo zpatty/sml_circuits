@@ -305,8 +305,6 @@ Wire Wire Line
 Wire Wire Line
 	7700 1700 7800 1700
 Wire Wire Line
-	7800 1700 7800 1500
-Wire Wire Line
 	7300 1300 7400 1300
 Wire Wire Line
 	7600 1300 7600 1500
@@ -317,7 +315,7 @@ Connection ~ 7300 1650
 Wire Wire Line
 	7800 1850 7850 1850
 Wire Wire Line
-	7850 1850 7850 1200
+	7850 1850 7850 1500
 Wire Wire Line
 	7850 1200 7400 1200
 Wire Wire Line
@@ -325,23 +323,23 @@ Wire Wire Line
 $Comp
 L Device:C_Small C3
 U 1 1 622A975F
-P 7950 1250
-F 0 "C3" H 8042 1296 50  0000 L CNN
-F 1 "C_Small" H 8042 1205 50  0000 L CNN
-F 2 "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder" H 7950 1250 50  0001 C CNN
-F 3 "~" H 7950 1250 50  0001 C CNN
-	1    7950 1250
+P 7950 1200
+F 0 "C3" H 8042 1246 50  0000 L CNN
+F 1 "C_Small" H 8042 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder" H 7950 1200 50  0001 C CNN
+F 3 "~" H 7950 1200 50  0001 C CNN
+	1    7950 1200
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small_US R2
 U 1 1 622AA739
-P 7950 1450
-F 0 "R2" V 7745 1450 50  0000 C CNN
-F 1 "R_Small_US" V 7836 1450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7950 1450 50  0001 C CNN
-F 3 "~" H 7950 1450 50  0001 C CNN
-	1    7950 1450
+P 7950 1500
+F 0 "R2" V 7745 1500 50  0000 C CNN
+F 1 "R_Small_US" V 7836 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 7950 1500 50  0001 C CNN
+F 3 "~" H 7950 1500 50  0001 C CNN
+	1    7950 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -355,11 +353,6 @@ F 3 "" H 8050 1350 50  0001 C CNN
 	1    8050 1350
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8050 1250 8050 1350
-Wire Wire Line
-	8050 1450 8050 1350
-Connection ~ 8050 1350
 $Comp
 L Device:R_Small_US R3
 U 1 1 622C3C80
@@ -451,4 +444,29 @@ F 3 "" H 7500 1050 50  0001 C CNN
 	1    7500 1050
 	1    0    0    -1  
 $EndComp
+Connection ~ 7850 1500
+Wire Wire Line
+	7850 1500 7850 1200
+Wire Wire Line
+	8050 1350 8050 1500
+Connection ~ 8050 1350
+Connection ~ 7850 1200
+Wire Wire Line
+	8050 1200 8050 1350
+Text Label 7100 1550 0    50   ~ 0
+SCL
+Text Label 7200 1650 0    50   ~ 0
+SDA
+Wire Wire Line
+	7800 1600 8050 1600
+Wire Wire Line
+	8050 1600 8050 1500
+Wire Wire Line
+	7800 1500 7800 1600
+Connection ~ 7800 1600
+Wire Wire Line
+	7800 1600 7800 1700
+Connection ~ 8050 1500
+Text Label 7850 1750 0    50   ~ 0
+SDB
 $EndSCHEMATC
