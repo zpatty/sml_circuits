@@ -46,4 +46,24 @@ F 3 "~" H 5700 3350 50  0001 C CNN
 	1    5700 3350
 	-1   0    0    1   
 $EndComp
+Text Label 5900 3450 0    50   ~ 0
+SDA
+Text Label 6400 3550 0    50   ~ 0
+SCL
+Text Label 6400 3250 0    50   ~ 0
+3.3V
+Text Label 5900 3150 0    50   ~ 0
+GND
+Text Label 6400 3150 0    50   ~ 0
+12V
+Text Label 5900 3550 0    50   ~ 0
+SMA1
+Text Label 5900 3250 0    50   ~ 0
+SMA2
+Text Label 5900 3350 0    50   ~ 0
+SMA2
+Text Label 6400 3350 0    50   ~ 0
+SMA3
+Text Label 6400 3450 0    50   ~ 0
+SMA4
 $EndSCHEMATC
