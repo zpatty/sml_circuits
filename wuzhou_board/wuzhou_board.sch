@@ -1,0 +1,168 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MS5611-01BA03:MS5611-01BA03 U1
+U 1 1 61006959
+P 3150 3900
+F 0 "U1" H 3150 4567 50  0000 C CNN
+F 1 "MS5611-01BA03" H 3150 4476 50  0000 C CNN
+F 2 "MS5611-01BA03:SON125P500X300X100-8N" H 3150 3900 50  0001 L BNN
+F 3 "" H 3150 3900 50  0001 L BNN
+F 4 "06/2017" H 3150 3900 50  0001 L BNN "PARTREV"
+F 5 "TE Connectivity" H 3150 3900 50  0001 L BNN "MANUFACTURER"
+F 6 "IPC7351B" H 3150 3900 50  0001 L BNN "STANDARD"
+	1    3150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 61007653
+P 4450 3600
+F 0 "R1" H 4518 3646 50  0000 L CNN
+F 1 "R_Small_US" H 4518 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4450 3600 50  0001 C CNN
+F 3 "~" H 4450 3600 50  0001 C CNN
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 61007D32
+P 4850 3600
+F 0 "R2" H 4918 3646 50  0000 L CNN
+F 1 "R_Small_US" H 4918 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 4850 3600 50  0001 C CNN
+F 3 "~" H 4850 3600 50  0001 C CNN
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 61008B9C
+P 5250 3600
+F 0 "C1" H 5342 3646 50  0000 L CNN
+F 1 "C_Small" H 5342 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5250 3600 50  0001 C CNN
+F 3 "~" H 5250 3600 50  0001 C CNN
+	1    5250 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3500 3900 3500
+Wire Wire Line
+	4850 3500 4450 3500
+Connection ~ 4450 3500
+Wire Wire Line
+	4850 3500 5250 3500
+Connection ~ 4850 3500
+$Comp
+L Connector_Generic:Conn_01x05 J1
+U 1 1 61009E9B
+P 6050 3500
+F 0 "J1" H 6130 3542 50  0000 L CNN
+F 1 "Conn_01x05" H 6130 3451 50  0000 L CNN
+F 2 "Connector_FFC-FPC:Molex_200528-0050_1x05-1MP_P1.00mm_Horizontal" H 6050 3500 50  0001 C CNN
+F 3 "~" H 6050 3500 50  0001 C CNN
+	1    6050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4300 4150 4300
+Wire Wire Line
+	5250 4300 5250 3700
+Wire Wire Line
+	2450 3800 2250 3800
+Wire Wire Line
+	2250 3800 2250 3000
+Wire Wire Line
+	2250 3000 4150 3000
+Wire Wire Line
+	4150 3000 4150 4300
+Connection ~ 4150 4300
+Wire Wire Line
+	4150 4300 5250 4300
+Wire Wire Line
+	2450 3700 2450 3100
+Wire Wire Line
+	2450 3100 3900 3100
+Wire Wire Line
+	3900 3100 3900 3500
+Connection ~ 3900 3500
+Wire Wire Line
+	3900 3500 4450 3500
+Wire Wire Line
+	2450 4100 2450 4450
+Wire Wire Line
+	2450 4450 4450 4450
+Wire Wire Line
+	4450 4450 4450 3750
+Wire Wire Line
+	2450 4000 2400 4000
+Wire Wire Line
+	2400 4000 2400 4550
+Wire Wire Line
+	2400 4550 4850 4550
+Text Label 4300 3500 0    50   ~ 0
+VDD
+Text Label 4650 4550 0    50   ~ 0
+SCL
+Text Label 3900 4300 0    50   ~ 0
+GND
+Text Label 4300 4450 0    50   ~ 0
+SDA
+Wire Wire Line
+	5250 3500 5700 3500
+Wire Wire Line
+	5700 3500 5700 3700
+Wire Wire Line
+	5700 3700 5850 3700
+Connection ~ 5250 3500
+Wire Wire Line
+	5250 4300 6350 4300
+Wire Wire Line
+	6350 4300 6350 3100
+Wire Wire Line
+	6350 3100 5700 3100
+Wire Wire Line
+	5700 3100 5700 3300
+Wire Wire Line
+	5700 3300 5850 3300
+Connection ~ 5250 4300
+Wire Wire Line
+	4850 4550 4850 3900
+Wire Wire Line
+	4850 3900 5550 3900
+Wire Wire Line
+	5550 3900 5550 3600
+Wire Wire Line
+	5550 3600 5850 3600
+Connection ~ 4850 3900
+Wire Wire Line
+	4850 3900 4850 3700
+Wire Wire Line
+	4450 3750 4700 3750
+Wire Wire Line
+	4700 3750 4700 3450
+Wire Wire Line
+	4700 3450 5750 3450
+Wire Wire Line
+	5750 3450 5750 3500
+Wire Wire Line
+	5750 3500 5850 3500
+Connection ~ 4450 3750
+Wire Wire Line
+	4450 3750 4450 3700
+$EndSCHEMATC

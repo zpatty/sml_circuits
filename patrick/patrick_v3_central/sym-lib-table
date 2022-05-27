@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name patrick_0.5-eagle-import)(type Legacy)(uri ${KIPRJMOD}/patrick_0.5-eagle-import.lib)(options "")(descr ""))
-  (lib (name patrick_v3_central-rescue)(type Legacy)(uri ${KIPRJMOD}/patrick_v3_central-rescue.lib)(options "")(descr ""))
-)
